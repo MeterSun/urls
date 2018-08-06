@@ -1,0 +1,172 @@
+# url list
+# 注释
+# 分组起始标志，以“====”开头的行
+# 分组起始标志后第一行是分组的名称
+# 随后的行分别以 urlname 与 url 成对出现
+# 
+===================
+学习
+谷歌翻译
+    https://translate.google.cn/
+MATLAB Central Cody
+    https://ww2.mathworks.cn/matlabcentral/cody/
+中国知网
+    http://www.cnki.net/
+万方数据
+    http://g.wanfangdata.com.cn/
+维普
+    http://www.cqvip.com/
+#IEEE.org
+#    http://ieeexplore.ieee.org/
+#SCI
+#    http://apps.webofknowledge.com
+===================
+天津大学
+天津大学
+    http://www.tju.edu.cn
+#天津大学财务处
+#    http://219.243.39.68/xysf/
+天津大学研究生院
+    http://gs.tju.edu.cn
+天津大学邮箱
+   http://mail.tju.edu.cn/
+天津大学图书馆
+    http://www.lib.tju.edu.cn/
+天津大学电气自动化与信息工程学院
+    http://www.tju.edu.cn/seea/
+四六级准考证打印
+    http://cet.etest.net.cn/Home/QuickPrintTestTicket
+全国大学英语四、六级考试报名网
+    http://cet.etest.edu.cn/
+全国大学英语四、六级考试成绩查询 - 中国教育考试网
+    http://cet.neea.edu.cn/cet/
+===================
+青岛
+女岛潮汐表
+    http://www.chaoxb.com/45/
+潮汐表
+    http://ocean.cnss.com.cn/
+===================
+API
+IP地址
+    http://ip.cip.cc/
+二维码api
+    http://qr.liantu.com/api.php?text=	
+	
+===================
+Git
+github
+    https://github.com/ 
+Git 教程 中文
+    https://git-scm.com/book/zh/v2
+geeeeeeeeek 的git中文教程，源于国外社区的优秀文章和个人实践
+    https://github.com/geeeeeeeeek/git-recipes
+gogs.io
+    https://gogs.io/
+Jekyll学习笔记 | schstudio.github
+    https://schstudio.github.io/2016/03/25/jekyll-study/
+===================
+素材
+图标下载 ICON(SVG/PNG/ICO/ICNS) | EASYICON.NET
+    https://www.easyicon.net
+危险标志 wiki
+    https://commons.wikimedia.org/wiki/Category:DIN_4844-2_warning_signs_(vector_drawings)
+===================
+Software
+异次元软件世界 - 软件改变生活！
+    http://www.iplaysoft.com
+Microsoft 软件/系统镜像
+    https://msdn.itellyou.cn/
+===================
+Raspberry Pi
+树莓派(Raspberry Pi)
+    http://www.shumeipai.com/
+Raspberry Pi树莓派2轻松搭建多媒体终端OpenELEC KODI[支持乐视TV等] - Powered by Discuz!
+    http://www.geek-workshop.com/thread-14530-1-1.html
+
+树莓派实验室 | Raspberry Pi中文资讯站，提供丰富的树莓派使用教程和DIY资讯
+    http://shumeipai.nxez.com/
+
+树莓派Win10镜像下载安装教程及使用初体验_树莓派RaspberryPi讨论区_云汉芯城电子工程师论坛-云汉芯城电子工程师社区
+    http://bbs.ickey.cn/group-topic-id-48099.html
+
+Raspberry Pi Downloads - Software for the Raspberry Pi
+    https://www.raspberrypi.org/downloads/
+
+level1 | 树莓派实验室
+    http://shumeipai.nxez.com/tag/level1
+
+使用 Raspberry Pi 远程桌面 - 开源中国社区
+    http://www.oschina.net/translate/how-to-remote-desktop-raspberry-pi?cmp
+
+树莓派论坛_中国最火卡片式电脑Raspberry Pi交流论坛 - Powered by Shumeipai.net!
+    http://www.shumeipai.net/forum.php
+
+10种树莓派最新系统列表+简介+下载+系统默认密码大合集 - 树莓派(Raspberry Pi) - 恩智社区 - Powered by Discuz! Archiver
+    http://bbs.nxez.com/archiver/tid-24.html
+树莓派上使用 GitLab 搭建专业 Git 服务 | 树莓派实验室
+    http://shumeipai.nxez.com/2017/10/20/raspberry-pi-use-gitlab-to-build-professional-git-services.html
+===================
+Linux
+Linux入门教程（更新完毕）_Linux教程
+    http://c.biancheng.net/cpp/linux/
+
+Ubuntu 12.04和Windows 7双系统安装图解 第3页_Linux教程_Linux公社-Linux系统门户网站
+    http://www.linuxidc.com/Linux/2012-05/59663p3.htm
+
+Linux.中国-开源社区
+    https://linux.cn/
+
+Linux命令大全
+    http://man.linuxde.net/
+
+===================
+jQuery
+Demos | jQuery Mobile
+    http://demos.jquerymobile.com/1.4.5/
+
+jQuery Mobile.com
+    http://jquerymobile.com/
+
+jQuery Mobile 教程 | 菜鸟教程
+    http://www.runoob.com/jquerymobile/jquerymobile-tutorial.html
+
+jQuery Mobile 教程 | w3school
+    http://www.w3school.com.cn/jquerymobile/
+
+===================
+Unsorted
+360 Chrome 浏览器扩展开发文档
+    http://open.chrome.360.cn/extension_dev/overview.html
+航图网_航班实时运行模拟图_航班飞行实时位置模拟
+        http://www.airtu.com/
+
+字幕库(zimuku) -- 字幕下载网站
+    http://www.zimuku.net/
+学习资料库 大量免费的学习资料
+    http://www.xuexi111.com/
+
+菜鸟教程
+    http://www.runoob.com/
+W3school
+	http://www.w3school.com.cn/
+W3Cschool
+    https://www.w3cschool.cn/
+HTML5+ API Reference | 中国产业联盟
+    http://www.html5plus.org/doc/h5p.html
+MagicaVoxel | 3d 像素建模软件
+    https://ephtracy.github.io/
+
+    	
+ESP8266串口模块的基本使用【转】
+	
+	https://www.cnblogs.com/zzb-Dream-90Time/p/6674286.html
+
+数字字体在线生成
+	http://www.akuziti.com/sz/
+大数据导航
+	http://hao.199it.com/
+在线工具 - 程序员的工具箱
+	https://tool.lu/
+
+===================

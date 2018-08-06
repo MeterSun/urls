@@ -6,65 +6,33 @@
     <title>ZYstudio</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" media="(max-width:800px)" href="css/mainlt.css">
     <!-- <link rel="stylesheet" type="text/css" media="screen and (max-width:700px)" href="css/main.css" /> -->
     <!-- <link rel="stylesheet" type="text/css" media="screen and (min-width:700px)" href="css/hand.css" /> -->
     <!-- <link rel="stylesheet" type="text/css" media="(max-width:700px)" href="css/main.css" /> -->
     <!-- <link rel="stylesheet" type="text/css" media="(min-width:700px)" href="css/hand.css" /> -->
     <script src="js/jquery-3.2.1.min.js"></script>
     <script src="js/vue.min.js"></script>
+    <script src="js/main.js"></script>
     <script>
-        var getFaviconUrl = function(url){
-            var a = document.createElement("a");
-            a.href = url;
-            return a.protocol + '//' + a.host + '/favicon.ico';
-        }
-        var urlgroups = [{
-            name:"学习",
-            urls:[{
-                name:"谷歌翻译",
-                url:"https://translate.google.cn/",
-            },{
-                name:"MATLAB Central Cody",
-                url:"https://ww2.mathworks.cn/matlabcentral/cody/",
-            }]
-        },{
-            name:"天津大学",
-            urls:[{
-                    name:"天津大学",
-                    url:"http://www.tju.edu.cn",
-                },{
-                    name:"天津大学研究生院",
-                    url:"http://gs.tju.edu.cn",
-                },{
-                    name:"天津大学图书馆",
-                    url:"http://www.lib.tju.edu.cn/",
-                },{
-                    name:"天津大学电气自动化与信息工程学院",
-                    url:"http://www.tju.edu.cn/seea/",
-                },{
-                    name:"四六级准考证打印",
-                    url:"http://cet.etest.net.cn/Home/QuickPrintTestTicket",
-                },{
-                    name:"全国大学英语四、六级考试报名网",
-                    url:"http://cet.etest.edu.cn/",
-                },{
-                    name:"全国大学英语四、六级考试成绩查询 - 中国教育考试网",
-                    url:"http://cet.neea.edu.cn/cet/",
-                }],
-        },{
-            name:"青岛",
-            urls:[{
-                    name:"女岛潮汐表",
-                    url:"http://www.chaoxb.com/45/",
-                },{
-                }],
-        }];
+        // var getFaviconUrl = function(url){
+        //     var a = document.createElement("a");
+        //     a.href = url;
+        //     return a.protocol + '//' + a.host + '/favicon.ico';
+        // }
+        // $(function(){
+        //     $.get('./url.txt',function(data){
+        //         var urlgroups = urltxtprase(data);
+        //         console.log(urlgroups);
+        //         console.log(JSON.stringify(urlgroups));
+        //     },'text');
+        // });
     </script>
 </head>
 <body>
     <div id="html">
         <div id="head">
-            <h2 class="title">链接收藏</h2>
+            <div class="title">链接收藏</div>
         </div>
         <div id="body">
             <div class="leftbox">
@@ -76,9 +44,16 @@
                 <div class="urlgroup" v-for="(group, index) in urlgroups" :key="index">
                     <div class="groupname">{{ group.name }}</div>
                     <div class="linklabel" v-for="(link, index) in group.urls" :key="index">
-                        <a :href="link.url">{{ link.name }}</a>
+                        <a :href="link.url" target="_blank">{{ link.name }}</a>
                     </div>
                 </div>
+            </div>
+        </div>
+        <div id="foot">
+            <div class="githubpng">
+                <a href="https://github.com/MeterSun/url-collection">
+                    <img src="img/github_black.png" alt="github.com/MeterSun/url-collection" height="60px" title="github/Metersun">
+                </a>
             </div>
         </div>
     </div>
@@ -86,9 +61,15 @@
     <script>
         var vm = new Vue({
             el:"#html",
-            data:{},
+            data:{
+                urlgroups:[]
+            },
             created:function() {
-                this.urlgroups = urlgroups;
+                !function (obj) {                    
+                    $.get('./url.txt',function(data){
+                        obj.urlgroups = urltxtprase(data);
+                    },'text')
+                }(this);
             },
         });
     </script>
