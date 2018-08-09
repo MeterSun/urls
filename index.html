@@ -3,10 +3,10 @@
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>ZYstudio</title>
+    <title>url collection</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="css/main.css">
-    <link rel="stylesheet" media="(max-width:800px)" href="css/mainlt.css">
+    <!-- <link rel="stylesheet" media="(max-width:800px)" href="css/mainlt.css"> -->
     <!-- <link rel="stylesheet" type="text/css" media="screen and (max-width:700px)" href="css/main.css" /> -->
     <!-- <link rel="stylesheet" type="text/css" media="screen and (min-width:700px)" href="css/hand.css" /> -->
     <!-- <link rel="stylesheet" type="text/css" media="(max-width:700px)" href="css/main.css" /> -->
@@ -37,11 +37,11 @@
         <div id="body">
             <div class="leftbox">
                 <div class="tagbox">
-                    <div class="tag" v-for="(group, index) in urlgroups" :key="index">{{ group.name }}</div>
+                    <div class="tag" v-for="(group, index) in urlgroups" :key="index" v-on:click="location.hash='group'+index">{{ group.name }}</div>
                 </div>
             </div>
             <div class="mainbox">
-                <div class="urlgroup" v-for="(group, index) in urlgroups" :key="index">
+                <div class="urlgroup" v-for="(group, index) in urlgroups" :key="index" :id="'group'+index">
                     <div class="groupname">{{ group.name }}</div>
                     <div class="linklabel" v-for="(link, index) in group.urls" :key="index">
                         <a :href="link.url" target="_blank">{{ link.name }}</a>
