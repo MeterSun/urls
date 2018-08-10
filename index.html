@@ -20,13 +20,17 @@
         //     a.href = url;
         //     return a.protocol + '//' + a.host + '/favicon.ico';
         // }
-        // $(function(){
+        $(function(){
         //     $.get('./url.txt',function(data){
         //         var urlgroups = urltxtprase(data);
         //         console.log(urlgroups);
         //         console.log(JSON.stringify(urlgroups));
         //     },'text');
-        // });
+            $('.linklabel').click(function (event) {
+                console.log(event);
+                console.log('click');
+            });
+        });
     </script>
 </head>
 <body>
@@ -44,7 +48,7 @@
                 <div class="urlgroup" v-for="(group, index) in urlgroups" :key="index" :id="'group'+index">
                     <div class="groupname">{{ group.name }}</div>
                     <div class="linklabel" v-for="(link, index) in group.urls" :key="index">
-                        <a :href="link.url" target="_blank">{{ link.name }}</a>
+                        <a :href="link.url" target="_blank" v-on:click="clickfun(link)">{{ link.name }}</a>
                     </div>
                 </div>
             </div>
@@ -62,12 +66,31 @@
         var vm = new Vue({
             el:"#html",
             data:{
-                urlgroups:[]
+                urlhistory:[],
+                urltxtgroups:[]
+            },
+            computed:{
+                urlgroups:function(){
+                    if (this.urlhistory.length > 0) {
+                        return Array({name:'常用',urls:this.urlhistory}).concat(this.urltxtgroups);
+                    } else {
+                        return this.urltxtgroups;
+                    }
+                }
+            },
+            methods:{
+                clickfun:function(link){
+                    while(0 <= $.inArray(link,this.urlhistory))this.urlhistory.splice($.inArray(link,this.urlhistory),1);
+                    this.urlhistory.unshift(link);
+                    while(this.urlhistory.length>10)this.urlhistory.pop();
+                    setLocalStorage('urlhistory',this.urlhistory);
+                }
             },
             created:function() {
-                !function (obj) {                    
+                this.urlhistory = getLocalStorage('urlhistory') || [];
+                !function (obj) {
                     $.get('./url.txt',function(data){
-                        obj.urlgroups = urltxtprase(data);
+                        obj.urltxtgroups = urltxtprase(data);
                     },'text')
                 }(this);
             },

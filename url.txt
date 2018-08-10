@@ -67,6 +67,8 @@ Jekyll学习笔记 | schstudio.github
     https://schstudio.github.io/2016/03/25/jekyll-study/
 ===================
 素材
+数字字体在线生成
+	http://www.akuziti.com/sz/
 图标下载 ICON(SVG/PNG/ICO/ICNS) | EASYICON.NET
     https://www.easyicon.net
 危险标志 wiki
@@ -121,6 +123,17 @@ Linux命令大全
     http://man.linuxde.net/
 
 ===================
+Web
+菜鸟教程
+    http://www.runoob.com/
+W3school
+	http://www.w3school.com.cn/
+W3Cschool
+    https://www.w3cschool.cn/
+HTML5+ API Reference | 中国产业联盟
+    http://www.html5plus.org/doc/h5p.html
+
+===================
 jQuery
 Demos | jQuery Mobile
     http://demos.jquerymobile.com/1.4.5/
@@ -146,24 +159,11 @@ Unsorted
 学习资料库 大量免费的学习资料
     http://www.xuexi111.com/
 
-菜鸟教程
-    http://www.runoob.com/
-W3school
-	http://www.w3school.com.cn/
-W3Cschool
-    https://www.w3cschool.cn/
-HTML5+ API Reference | 中国产业联盟
-    http://www.html5plus.org/doc/h5p.html
 MagicaVoxel | 3d 像素建模软件
     https://ephtracy.github.io/
 
-    	
 ESP8266串口模块的基本使用【转】
-	
 	https://www.cnblogs.com/zzb-Dream-90Time/p/6674286.html
-
-数字字体在线生成
-	http://www.akuziti.com/sz/
 大数据导航
 	http://hao.199it.com/
 在线工具 - 程序员的工具箱
