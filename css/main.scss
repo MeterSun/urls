@@ -8,7 +8,7 @@ body{
 
 #head{
     background-color: rgb(230, 253, 255);
-    background-image: url(https://img3.doubanio.com/f/sns/ffc65fc1646b125a37ef3adf1e8dacd5c711c3bd/pics/sns/anony_home/doubanapp5_bg.png);
+    background-image: url(../img/backgroundimg.png);
     box-shadow: 0px 0px 10px 0px rgb(110, 110, 110);
     .title{
         width: 60%;
@@ -18,6 +18,7 @@ body{
         color: rgb(255, 179, 129);
         font-size:300%;
         font-weight: bold;
+        text-shadow: 1px 1px 5px rgb(63, 63, 63);
     }
 }
 #body{
@@ -32,6 +33,11 @@ body{
 // }
 
 @media (max-width: 800px) {
+    #head{
+        .title{
+            width: 95%;
+        }
+    }
     #body{
         width: 95%;
     }
@@ -86,6 +92,7 @@ body{
         }
         .linklabel{
             padding: 0.2em 4em;
+            padding-right: 0.5em;
             text-indent: -2em;
             &::before{
                 content: url(../img/page.png)
