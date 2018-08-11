@@ -106,8 +106,10 @@ body{
     box-shadow: 0px 0px 10px 0px rgb(110, 110, 110);
     background-color: rgb(202, 202, 202);
     .githubpng{
-        // height: 20px;    
-        width: 60px;
-        margin: auto;
+        display: flex;
+        justify-content: center;
+        a{
+            margin: 5px;    // display: block;
+        }
     }
 }

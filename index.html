@@ -35,15 +35,15 @@
 </head>
 <body>
     <div id="html">
-        <div id="head">
+        <header id="head">
             <div class="title">链接收藏</div>
-        </div>
+        </header>
         <div id="body">
-            <div class="leftbox">
-                <div class="tagbox">
+            <aside class="leftbox">
+                <nav class="tagbox">
                     <div class="tag" v-for="(group, index) in urlgroups" :key="index" v-on:click="location.hash='group'+index">{{ group.name }}</div>
-                </div>
-            </div>
+                </nav>
+            </aside>
             <div class="mainbox">
                 <div class="urlgroup" v-for="(group, index) in urlgroups" :key="index" :id="'group'+index">
                     <div class="groupname">{{ group.name }}</div>
@@ -53,13 +53,19 @@
                 </div>
             </div>
         </div>
-        <div id="foot">
+        <footer id="foot">
             <div class="githubpng">
+                <a href="alipayqr://platformapi/startapp?saId=10000007&qrcode=https%3A%2F%2Fqr.alipay.com%2Fc1x00596isfkv6paaawgjf1">
+                    <img src="img/hongbao.png" alt="" height="40px" title="支付宝红包">
+                </a>
+                <a href="alipayqr://platformapi/startapp?saId=10000007&qrcode=HTTPS%3a%2f%2fQR.ALIPAY.COM%2fFKX09444VLZFVRUQTCQA47">
+                    <img src="img/alipay.png" alt="" height="40px" title="支付宝打赏">
+                </a>
                 <a href="https://github.com/MeterSun/url-collection">
-                    <img src="img/github_black.png" alt="github.com/MeterSun/url-collection" height="60px" title="github/Metersun">
+                    <img src="img/github_black - f.png" alt="github.com/MeterSun/url-collection" height="40px" title="github/Metersun">
                 </a>
             </div>
-        </div>
+        </footer>
     </div>
 </body>
     <script>
