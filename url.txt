@@ -16,10 +16,10 @@ MATLAB Central Cody
     http://g.wanfangdata.com.cn/
 维普
     http://www.cqvip.com/
-#IEEE.org
-#    http://ieeexplore.ieee.org/
-#SCI
-#    http://apps.webofknowledge.com
+IEEE.org
+    http://ieeexplore.ieee.org/
+SCI
+    http://apps.webofknowledge.com
 ===================
 天津大学
 天津大学
@@ -65,6 +65,8 @@ gogs.io
     https://gogs.io/
 Jekyll学习笔记 | schstudio.github
     https://schstudio.github.io/2016/03/25/jekyll-study/
+hexo 博客框架
+    https://hexo.io/zh-cn/
 ===================
 素材
 数字字体在线生成
@@ -137,10 +139,10 @@ HTML5+ API Reference | 中国产业联盟
 jQuery
 Demos | jQuery Mobile
     http://demos.jquerymobile.com/1.4.5/
-
 jQuery Mobile.com
     http://jquerymobile.com/
-
+jQuery 教程 | 菜鸟教程
+    http://www.runoob.com/jquery/jquery-tutorial.html
 jQuery Mobile 教程 | 菜鸟教程
     http://www.runoob.com/jquerymobile/jquerymobile-tutorial.html
 
