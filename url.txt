@@ -5,6 +5,10 @@
 # 随后的行分别以 urlname 与 url 成对出现
 # 
 ===================
+NEW
+斯坦福CS231n-计算机视觉—笔记汇总
+    https://blog.csdn.net/lahuilei/article/details/78823339
+===================
 学习
 谷歌翻译
     https://translate.google.cn/
