@@ -68,7 +68,7 @@ geeeeeeeeek 的git中文教程，源于国外社区的优秀文章和个人实�
 gogs.io
     https://gogs.io/
 Jekyll学习笔记 | schstudio.github
-    https://schstudio.github.io/2016/03/25/jekyll-study/
+    http://schstudio.github.io/2016/03/25/jekyll-study/
 hexo 博客框架
     https://hexo.io/zh-cn/
 ===================
