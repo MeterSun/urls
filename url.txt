@@ -6,6 +6,8 @@
 # 
 ===================
 NEW
+TensorFlow 官方文档中文版 |　极客学院
+    http://wiki.jikexueyuan.com/project/tensorflow-zh/
 斯坦福CS231n-计算机视觉—笔记汇总
     https://blog.csdn.net/lahuilei/article/details/78823339
 ===================
