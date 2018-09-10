@@ -6,6 +6,12 @@
 # 
 ===================
 NEW
+PyTorch中文文档
+    https://pytorch-cn.readthedocs.io/zh/latest/
+Keras中文文档
+    https://keras-cn.readthedocs.io/en/latest/
+机器学习 - 李宏毅 | 台湾大学
+    http://speech.ee.ntu.edu.tw/~tlkagk/courses_ML17.html
 TensorFlow 官方文档中文版 |　极客学院
     http://wiki.jikexueyuan.com/project/tensorflow-zh/
 斯坦福CS231n-计算机视觉—笔记汇总
