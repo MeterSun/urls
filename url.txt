@@ -6,6 +6,8 @@
 # 
 ===================
 NEW
+莫烦python
+    https://morvanzhou.github.io/
 PyTorch中文文档
     https://pytorch-cn.readthedocs.io/zh/latest/
 Keras中文文档
