@@ -20,6 +20,8 @@ TensorFlow 官方文档中文版 |　极客学院
     https://blog.csdn.net/lahuilei/article/details/78823339
 ===================
 学习
+arXiv.org
+    https://arxiv.org/
 谷歌翻译
     https://translate.google.cn/
 MATLAB Central Cody
@@ -54,6 +56,8 @@ SCI
     http://cet.etest.edu.cn/
 全国大学英语四、六级考试成绩查询 - 中国教育考试网
     http://cet.neea.edu.cn/cet/
+校园公告 | 天外天
+    https://news.twt.edu.cn/secondpage/2
 ===================
 青岛
 女岛潮汐表
