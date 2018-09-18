@@ -144,6 +144,8 @@ Linux命令大全
 
 ===================
 Web
+Chrome 调试技巧
+    https://mp.weixin.qq.com/s?__biz=MjM5NTY1MjY0MQ==&mid=2650743171&idx=4&sn=fbc8fac3683637505c8df3b1fe87b450&chksm=befeb4cd89893ddbbd9bcf21d2a71952cc54d8999581256aaf56cccb41171352ad176294ac70&mpshare=1&scene=1&srcid=0915jc3Wh6WyqGT2TlAkowto#rd
 菜鸟教程
     http://www.runoob.com/
 W3school
@@ -153,8 +155,6 @@ W3Cschool
 HTML5+ API Reference | 中国产业联盟
     http://www.html5plus.org/doc/h5p.html
 
-===================
-jQuery
 Demos | jQuery Mobile
     http://demos.jquerymobile.com/1.4.5/
 jQuery Mobile.com
