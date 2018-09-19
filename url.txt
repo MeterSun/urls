@@ -5,7 +5,7 @@
 # 随后的行分别以 urlname 与 url 成对出现
 # 
 ===================
-NEW
+ML & CV
 莫烦python
     https://morvanzhou.github.io/
 PyTorch中文文档
@@ -28,8 +28,8 @@ MATLAB Central Cody
     https://ww2.mathworks.cn/matlabcentral/cody/
 中国知网
     http://www.cnki.net/
-万方数据
-    http://g.wanfangdata.com.cn/
+#万方数据
+#    http://g.wanfangdata.com.cn/
 维普
     http://www.cqvip.com/
 IEEE.org
@@ -45,7 +45,7 @@ SCI
 天津大学研究生院
     http://gs.tju.edu.cn
 天津大学邮箱
-   http://mail.tju.edu.cn/
+    http://mail.tju.edu.cn/
 天津大学图书馆
     http://www.lib.tju.edu.cn/
 天津大学电气自动化与信息工程学院
@@ -65,13 +65,6 @@ SCI
 潮汐表
     http://ocean.cnss.com.cn/
 ===================
-API
-IP地址
-    http://ip.cip.cc/
-二维码api
-    http://qr.liantu.com/api.php?text=	
-	
-===================
 Git
 github
     https://github.com/ 
@@ -85,31 +78,27 @@ Jekyll学习笔记 | schstudio.github
     http://schstudio.github.io/2016/03/25/jekyll-study/
 hexo 博客框架
     https://hexo.io/zh-cn/
-===================
-素材
-数字字体在线生成
-	http://www.akuziti.com/sz/
-图标下载 ICON(SVG/PNG/ICO/ICNS) | EASYICON.NET
-    https://www.easyicon.net
-危险标志 wiki
-    https://commons.wikimedia.org/wiki/Category:DIN_4844-2_warning_signs_(vector_drawings)
+Editor.md Examples | 在线开源 markdown 编辑器
+    https://pandao.github.io/editor.md/examples/index.html
 ===================
 Software
 异次元软件世界 - 软件改变生活！
     http://www.iplaysoft.com
 Microsoft 软件/系统镜像
     https://msdn.itellyou.cn/
+MagicaVoxel | 3d 像素建模软件
+    https://ephtracy.github.io/
 ===================
 Raspberry Pi
 树莓派(Raspberry Pi)
     http://www.shumeipai.com/
-Raspberry Pi树莓派2轻松搭建多媒体终端OpenELEC KODI[支持乐视TV等] - Powered by Discuz!
+Raspberry Pi树莓派2轻松搭建多媒体终端OpenELEC KODI[支持乐视TV等]
     http://www.geek-workshop.com/thread-14530-1-1.html
 
-树莓派实验室 | Raspberry Pi中文资讯站，提供丰富的树莓派使用教程和DIY资讯
+树莓派实验室 | Raspberry Pi中文资讯站
     http://shumeipai.nxez.com/
 
-树莓派Win10镜像下载安装教程及使用初体验_树莓派RaspberryPi讨论区_云汉芯城电子工程师论坛-云汉芯城电子工程师社区
+树莓派Win10镜像下载安装教程及使用初体验 - 云汉芯城电子工程师社区
     http://bbs.ickey.cn/group-topic-id-48099.html
 
 Raspberry Pi Downloads - Software for the Raspberry Pi
@@ -121,10 +110,10 @@ level1 | 树莓派实验室
 使用 Raspberry Pi 远程桌面 - 开源中国社区
     http://www.oschina.net/translate/how-to-remote-desktop-raspberry-pi?cmp
 
-树莓派论坛_中国最火卡片式电脑Raspberry Pi交流论坛 - Powered by Shumeipai.net!
+树莓派论坛 Shumeipai.net
     http://www.shumeipai.net/forum.php
 
-10种树莓派最新系统列表+简介+下载+系统默认密码大合集 - 树莓派(Raspberry Pi) - 恩智社区 - Powered by Discuz! Archiver
+10种树莓派最新系统列表+简介+下载+系统默认密码大合集
     http://bbs.nxez.com/archiver/tid-24.html
 树莓派上使用 GitLab 搭建专业 Git 服务 | 树莓派实验室
     http://shumeipai.nxez.com/2017/10/20/raspberry-pi-use-gitlab-to-build-professional-git-services.html
@@ -168,23 +157,17 @@ jQuery Mobile 教程 | w3school
     http://www.w3school.com.cn/jquerymobile/
 
 ===================
-Markdown
-Editor.md Examples | 在线开源 markdown 编辑器
-https://pandao.github.io/editor.md/examples/index.html
-===================
 Unsorted
 360 Chrome 浏览器扩展开发文档
     http://open.chrome.360.cn/extension_dev/overview.html
 航图网_航班实时运行模拟图_航班飞行实时位置模拟
-        http://www.airtu.com/
+    http://www.airtu.com/
 
 字幕库(zimuku) -- 字幕下载网站
     http://www.zimuku.net/
 学习资料库 大量免费的学习资料
     http://www.xuexi111.com/
 
-MagicaVoxel | 3d 像素建模软件
-    https://ephtracy.github.io/
 
 ESP8266串口模块的基本使用【转】
 	https://www.cnblogs.com/zzb-Dream-90Time/p/6674286.html
@@ -192,6 +175,16 @@ ESP8266串口模块的基本使用【转】
 	http://hao.199it.com/
 在线工具 - 程序员的工具箱
 	https://tool.lu/
+数字字体在线生成
+	http://www.akuziti.com/sz/
+图标下载 ICON(SVG/PNG/ICO/ICNS) | EASYICON.NET
+    https://www.easyicon.net
+危险标志 wiki
+    https://commons.wikimedia.org/wiki/Category:DIN_4844-2_warning_signs_(vector_drawings)
+IP地址
+    http://ip.cip.cc/
+二维码api
+    http://qr.liantu.com/api.php?text=	
 BLOG
     https://metersun.github.io/blog/
 ===================
