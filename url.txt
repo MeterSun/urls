@@ -190,7 +190,9 @@ ESP8266串口模块的基本使用【转】
 IP地址
     http://ip.cip.cc/
 二维码api
-    http://qr.liantu.com/api.php?text=	
+    http://qr.liantu.com/api.php?text=
+crx4chrome Chrome插件扩展
+    https://www.crx4chrome.com/
 BLOG
     https://metersun.github.io/blog/
 ===================
